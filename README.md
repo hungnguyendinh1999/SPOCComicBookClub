@@ -1,5 +1,5 @@
 # SPOC Comic Book Club 
-###(SPOCComicBookClub)
+### (SPOCComicBookClub)
 Comic book Club website for SPOC - CS 201 Web Development Project. By Hung, Paco, and Cat Mai
 
 ## Getting started:
