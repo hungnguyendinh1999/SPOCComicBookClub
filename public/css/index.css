@@ -1,0 +1,16 @@
+:root {
+    --theme-blue: #34b0fa;
+}
+#navigation li:hover{
+    background: #34b0fa;
+}
+
+button {
+    border: 2px solid;
+    border-color:  var(--theme-blue) !important;
+    background: white !important;
+}
+
+button:hover {
+    background: #34b0fa !important;
+}
