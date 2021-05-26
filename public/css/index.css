@@ -1,5 +1,6 @@
 :root {
     --theme-blue: #34b0fa;
+    --theme-yellow:#f6d73a;
 }
 #navigation li:hover{
     background: #34b0fa;
