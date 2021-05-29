@@ -44,9 +44,6 @@
                     <a class="nav-item nav-link" href="/about">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-item nav-link" href="/members">MEMBERS</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-item nav-link" href="/conventions">CONVENTIONS</a>
                 </li>
                 <li class="nav-item">
@@ -56,49 +53,66 @@
                     <a class="nav-item nav-link" href="/contacts">CONTACTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-item nav-link" href="/SPOC">SPOC CALENDAR</a>
+                    <a class="nav-item nav-link" href="/SPOC-calendar">SPOC CALENDAR</a>
                 </li>
             </ul>
         </div>
     </nav>
 </section>
 <section id="welcome">
-    <div>
+    <div class="masthead bg-primary comic-bg">
         Welcome to Comic Book Club!
         <div>
-            <button type="button" class="btn btn-light">Get to Know Us!</button>
-            <button type="button" class="btn btn-light">Get in Contact with Us!</button>
-            <button type="button" class="btn btn-light">What else is going on in SPOC</button>
+            <button type="button" class="btn btn-light" id="get_to_know">Get to Know Us!</button>
+            <button type="button" class="btn btn-light" id="get_in_contacts">Get in Contact with Us!</button>
+            <button type="button" class="btn btn-light" id="whatelse">What else is going on in SPOC</button>
         </div>
 
     </div>
 </section>
 
-<!--<section id="carousel">-->
-<!--    <div class="flexslider carousel" data-options="minWidth:150,itemMargin:3">-->
-<!--        <ul class="slides">-->
-<!--            <li>-->
-<!--                <a class="img-box img-scale-rotate lightbox" href="http://www.framework-y.com/images/thumb-large.png">-->
-<!--                    <img src="http://www.framework-y.com/images/thumb-wide.png">-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                <a class="img-box img-scale-rotate lightbox" href="http://www.framework-y.com/images/thumb-large.png">-->
-<!--                    <img src="http://www.framework-y.com/images/thumb-wide.png">-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                <a class="img-box img-scale-rotate lightbox" href="https://vimeo.com/66516165">-->
-<!--                    <img src="http://www.framework-y.com/images/thumb-wide.png">-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                <a class="img-box img-scale-rotate lightbox" href="http://www.framework-y.com/images/thumb-large.png">-->
-<!--                    <img src="http://www.framework-y.com/images/thumb-wide.png">-->
-<!--                </a>-->
-<!--            </li>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--</section>-->
+<section id="carousel">
+    <h1 class="text-center">Comics we're talking about</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.imagecomics.com/assets/i/releases/16976/invincible-vol-24-the-end-of-all-things-part-1_a86b8f2abd.jpg"
+                     href="https://imagecomics.com/comics/series/invincible"
+                     class="d-block w-50" alt="Invincible #24">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.imagecomics.com/assets/i/releases/16189/jupiters-circle-vol-2-6_96a2be9fa4.jpg"
+                     href="https://imagecomics.com/comics/releases/jupiters-circle-vol-2-6"
+                     class="d-block w-50"
+                     alt="Jupiter's Circle Vol. 2 #6">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/5730e351bd592/portrait_uncanny.jpg"
+                     href="https://www.marvel.com/comics/series/15487/deadpool_kills_the_marvel_universe_2011_-_2012"
+                     class="d-block w-50" alt="Deadpool Kills the Marvel Universe #1">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="text-center"  id="where">
+        <h3 style="margin:20px">Let Us know what you think by going to <button id="our_weekly" type="button" class="btn btn-light"><h3>Our Weekly Meeting</h3></button></h3>
+    </div>
+</section>
+
+<section id="footer">
+
+</section>
 </body>
 </html>

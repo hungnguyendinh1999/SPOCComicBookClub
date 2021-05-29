@@ -1,17 +1,44 @@
 :root {
     --theme-blue: #34b0fa;
     --theme-yellow:#f6d73a;
+    --theme-grey: #3e4348;
 }
 #navigation li:hover{
     background: #34b0fa;
 }
 
+#carousel img {
+    display: block;
+    margin: auto auto 10px;
+}
+
 button {
     border: 2px solid;
-    border-color:  var(--theme-blue) !important;
+
     background: white !important;
+}
+.carousel-indicators button {
+    border-radius: 50% !important;
+}
+
+.comic-bg {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210128/pngtree-yellow-and-orange-comic-background-image_546272.jpg");
+}
+
+.masthead {
+    display: block;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bg-primary {
+    background-color: lightslategrey !important;
 }
 
 button:hover {
     background: #34b0fa !important;
+    color: white !important;
+    border-color:  var(--theme-blue) !important;
 }

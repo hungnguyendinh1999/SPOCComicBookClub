@@ -14,7 +14,30 @@ app.listen(3000, function () {
 mongoose.connect('mongodb://localhost:27017/comicDB', {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.set("useCreateIndex", true);
 
-
+// Public Directories
 app.get('/', function(req,res) {
     res.sendFile(__dirname+"/public/index.html");
 })
+
+app.get('/about', function(req,res) {
+    res.sendFile(__dirname+"/public/about.html");
+})
+
+app.get('/conventions', function(req,res) {
+    res.sendFile(__dirname+"/public/conventions.html");
+})
+
+app.get('/weekly-meeting', function(req,res) {
+    res.sendFile(__dirname+"/public/weekly.html"); // subject to change
+})
+
+app.get('/contacts', function(req,res) {
+    res.sendFile(__dirname+"/public/contacts.html");
+})
+
+app.get('/SPOC-calendar', function(req, res) {
+    res.sendFile(__dirname+ "/public/SPOC-calendar.html")
+})
+
+// Private Directories
+
