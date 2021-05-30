@@ -11,8 +11,22 @@ app.listen(3000, function () {
 });
 
 //Configure local Mongoose
-mongoose.connect('mongodb://localhost:27017/comicDB', {useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.set("useCreateIndex", true);
+mongoose.connect('mongodb://localhost:27017/comicDB', {useNewUrlParser: true, useUnifiedTopology: true}, function() {
+    console.log("MongoDB connection successful");
+});
+
+const eventSchema = {
+    event_name: String,
+    date: String,
+    time_from: String,
+    time_to: String,
+    location: String,
+    description: String,
+    img_url: String,
+    categories: [String]
+}
+
+const SPOCEvent = mongoose.model('SPOCEvent', eventSchema);
 
 // Public Directories
 app.get('/', function(req,res) {
@@ -36,8 +50,22 @@ app.get('/contacts', function(req,res) {
 })
 
 app.get('/SPOC-calendar', function(req, res) {
-    res.sendFile(__dirname+ "/public/SPOC-calendar.html")
+    res.sendFile(__dirname+ "/public/SPOC-calendar.html");
 })
 
-// Private Directories
-
+// Private
+app.get('/get_all_SPOC_events', function(req,res) {
+    SPOCEvent.find(function(err, data) {
+        if(err) {
+            res.send({
+                "message": "internal database error: code SPOC",
+                "data": []
+            });
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+        }
+    })
+})

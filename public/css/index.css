@@ -12,17 +12,32 @@
     margin: auto auto 10px;
 }
 
+#welcome .center-15 {
+    font-size: 30px;
+    font-family: 'Titan One', cursive;
+}
+
 button {
     border: 2px solid;
-
     background: white !important;
 }
 .carousel-indicators button {
     border-radius: 50% !important;
+
+}
+
+.spacing {
+    margin: 50px;
 }
 
 .comic-bg {
     background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210128/pngtree-yellow-and-orange-comic-background-image_546272.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-15 {
+    margin-left: 20%;
 }
 
 .masthead {
