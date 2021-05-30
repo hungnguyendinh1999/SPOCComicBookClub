@@ -1,0 +1,522 @@
+[
+  {
+    "event_name": "Nashville Comic Con",
+    "description": "Comic Book Convention at Nashville Comic Con",
+    "location": "Nashville, TN, US",
+    "start": "05/29/2021",
+    "end": "05/31/2021",
+    "url": "https://www.nashvillecomicon.com/"
+  },
+  {
+    "event_name": "Shoff Promotions Comic Book and Non-Sports Card Show",
+    "description": "Comic Book Convention at Shoff Promotions Comic Book and Non-Sports Card Show",
+    "location": "Annandale Fire Station, Annandale, US",
+    "start": "05/30/2021",
+    "end": "05/30/2021",
+    "url": "http://shoffpromotions.com/"
+  },
+  {
+    "event_name": "Niagara Falls Comic Con",
+    "description": "Comic Book Convention at Niagara Falls Comic Con",
+    "location": "Scotiabank Convention Centre, Niagara Falls, CA",
+    "start": "06/04/2021",
+    "end": "06/07/2021",
+    "url": "http://nfcomiccon.com/"
+  },
+  {
+    "event_name": "Alabama Comic Con",
+    "description": "Comic Book Convention at Alabama Comic Con",
+    "location": "Birmingham, AL, US",
+    "start": "06/05/2021",
+    "end": "06/07/2021",
+    "url": "https://alabamacomiccon.com/"
+  },
+  {
+    "event_name": "Philadelphia Comic-Con",
+    "description": "Comic Book Convention at Philadelphia Comic-Con",
+    "location": "Clarion Hotel Philadelphia International Airport, Essington, US",
+    "start": "06/06/2021",
+    "end": "06/06/2021",
+    "url": "http://www.philadelphiacomic-con.com/"
+  },
+  {
+    "event_name": "Westchester Comic Show",
+    "description": "Comic Book Convention at Westchester Comic Show",
+    "location": "Anshe Sholom Synagogue, New Rochelle, US",
+    "start": "06/06/2021",
+    "end": "06/06/2021",
+    "url": "https://www.facebook.com/groups/358618855731411"
+  },
+  {
+    "event_name": "Campbell Con",
+    "description": "Comic Book Convention at Campbell Con",
+    "location": "Reno, NV, US",
+    "start": "06/12/2021",
+    "end": "06/12/2021",
+    "url": "https://www.campbellcon.com/"
+  },
+  {
+    "event_name": "Comic Book and More Show",
+    "description": "Comic Book Convention at Comic Book and More Show",
+    "location": "Delta Hotels by Marriott Baltimore Hunt Valley, Hunt Valley, US",
+    "start": "06/13/2021",
+    "end": "06/13/2021",
+    "url": "https://clandestinecomics.com/"
+  },
+  {
+    "event_name": "International Fan Festival Toronto",
+    "description": "Comic Book Convention at International Fan Festival Toronto",
+    "location": "Toronto, ON, CA",
+    "start": "06/18/2021",
+    "end": "06/21/2021",
+    "url": "https://toronto.ifanfes.com/"
+  },
+  {
+    "event_name": "Washington State Summer Con",
+    "description": "Comic Book Convention at Washington State Summer Con",
+    "location": "Puyallup, WA, US",
+    "start": "06/18/2021",
+    "end": "06/21/2021",
+    "url": "http://www.wasummercon.com/"
+  },
+  {
+    "event_name": "Rhode Island Comic Con",
+    "description": "Comic Book Convention at Rhode Island Comic Con",
+    "location": "Rhode Island Convention Center, Providence, US",
+    "start": "06/18/2021",
+    "end": "06/21/2021",
+    "url": "http://www.ricomiccon.com/"
+  },
+  {
+    "event_name": "Smallville ComicCon",
+    "description": "Comic Book Convention at Smallville ComicCon",
+    "location": "Smallville, KS, US",
+    "start": "06/19/2021",
+    "end": "06/21/2021",
+    "url": "http://smallvillecomiccon.com/"
+  },
+  {
+    "event_name": "Convention Geek Unchained",
+    "description": "Comic Book Convention at Convention Geek Unchained",
+    "location": "Mulhouse, FR",
+    "start": "06/19/2021",
+    "end": "06/21/2021",
+    "url": "https://convention.geekunchained.fr/"
+  },
+  {
+    "event_name": "CCXP Cologne",
+    "description": "Comic Book Convention at CCXP Cologne",
+    "location": "Cologne, DE",
+    "start": "06/25/2021",
+    "end": "06/28/2021",
+    "url": "https://www.ccxp-cologne.com/"
+  },
+  {
+    "event_name": "SoonerCon",
+    "description": "Comic Book Convention at SoonerCon",
+    "location": "Norman, OK, US",
+    "start": "06/25/2021",
+    "end": "06/28/2021",
+    "url": "https://www.soonercon.com/"
+  },
+  {
+    "event_name": "Fanboy Expo",
+    "description": "Comic Book Convention at Fanboy Expo",
+    "location": "Knoxville Convention Center, Knoxville, US",
+    "start": "06/25/2021",
+    "end": "06/28/2021",
+    "url": "http://fanboyexpo.com/"
+  },
+  {
+    "event_name": "Mississippi Comic Con",
+    "description": "Comic Book Convention at Mississippi Comic Con",
+    "location": "Mississippi Trademart Center, Jackson, US",
+    "start": "06/26/2021",
+    "end": "06/21/2021",
+    "url": "http://mississippicomiccon.com/"
+  },
+  {
+    "event_name": "Forest City Comicon",
+    "description": "Comic Book Convention at Forest City Comicon",
+    "location": "London, ON, CA",
+    "start": "06/26/2021",
+    "end": "06/26/2021",
+    "url": "http://www.forestcitycomicon.ca/"
+  },
+  {
+    "event_name": "Akron-Canton Comic Con",
+    "description": "Comic Book Convention at Akron-Canton Comic Con",
+    "location": "Chapparells, Akron, US",
+    "start": "06/27/2021",
+    "end": "06/27/2021",
+    "url": "http://www.harpercomics.com/"
+  },
+  {
+    "event_name": "Flea-Con! Outdoor Comic Book Show",
+    "description": "Comic Book Convention at Flea-Con! Outdoor Comic Book Show",
+    "location": "Mount Bethel Fire Company, Mt Bethel, US",
+    "start": "06/27/2021",
+    "end": "06/27/2021",
+    "url": "http://www.jerseyshorecomicbookshow.com/"
+  },
+  {
+    "event_name": "Corpus Christi Comic Con",
+    "description": "Comic Book Convention at Corpus Christi Comic Con",
+    "location": "Richard M. Borchard Regional Fairgrounds, Robstown, US",
+    "start": "07/02/2021",
+    "end": "07/05/2021",
+    "url": "http://corpuschristicomiccon.com/"
+  },
+  {
+    "event_name": "NorthEast Comic Con and Collectibles Extravaganza",
+    "description": "Comic Book Convention at NorthEast Comic Con and Collectibles Extravaganza",
+    "location": "Boxboro Regency, Boxborough, US",
+    "start": "07/02/2021",
+    "end": "07/05/2021",
+    "url": "https://necomiccons.com/"
+  },
+  {
+    "event_name": "Salt City Comic-Con",
+    "description": "Comic Book Convention at Salt City Comic-Con",
+    "location": "Syracuse, NY, US",
+    "start": "07/03/2021",
+    "end": "07/05/2021",
+    "url": "https://www.saltcitycomiccon.com/"
+  },
+  {
+    "event_name": "Montreal Comiccon",
+    "description": "Comic Book Convention at Montreal Comiccon",
+    "location": "Palais des congrÃ¨s de MontrÃ©al, Montreal, CA",
+    "start": "07/09/2021",
+    "end": "07/12/2021",
+    "url": "http://www.montrealcomiccon.com/"
+  },
+  {
+    "event_name": "PopCon Indy",
+    "description": "Comic Book Convention at PopCon Indy",
+    "location": "Indiana Convention Center, Indianapolis, US",
+    "start": "07/09/2021",
+    "end": "07/12/2021",
+    "url": "https://popcon.us/"
+  },
+  {
+    "event_name": "Comicpalooza",
+    "description": "Comic Book Convention at Comicpalooza",
+    "location": "George R. Brown Convention Center, 1001 Avenida de las Americas, Houston, US",
+    "start": "07/17/2021",
+    "end": "07/19/2021",
+    "url": "http://www.comicpalooza.com/"
+  },
+  {
+    "event_name": "Buckeye Comic Con",
+    "description": "Comic Book Convention at Buckeye Comic Con",
+    "location": "Courtyard Columbus West, Columbus, US",
+    "start": "07/18/2021",
+    "end": "07/18/2021",
+    "url": "http://www.harpercomics.com/conventions.php"
+  },
+  {
+    "event_name": "Silver City Con",
+    "description": "Comic Book Convention at Silver City Con",
+    "location": "Silver City Hall, Meriden, US",
+    "start": "07/18/2021",
+    "end": "07/18/2021",
+    "url": "https://www.facebook.com/events/1348547828848940/"
+  },
+  {
+    "event_name": "Comic-Con International: San Diego",
+    "description": "Comic Book Convention at Comic-Con International: San Diego",
+    "location": "San Diego Convention Center, 111 W. Harbor Drive, San Diego, US",
+    "start": "07/22/2021",
+    "end": "07/26/2021",
+    "url": "http://www.comic-con.org/"
+  },
+  {
+    "event_name": "Fanboy Expo Columbus",
+    "description": "Comic Book Convention at Fanboy Expo Columbus",
+    "location": "Columbus, OH, US",
+    "start": "07/23/2021",
+    "end": "07/26/2021",
+    "url": "https://fanboyexpo.com/"
+  },
+  {
+    "event_name": "Springfield Comic Con",
+    "description": "Comic Book Convention at Springfield Comic Con",
+    "location": "Springfield, MA, US",
+    "start": "07/24/2021",
+    "end": "07/24/2021",
+    "url": "https://www.springfieldcomiccon.com/"
+  },
+  {
+    "event_name": "C.H.U.D. Comic Book Show",
+    "description": "Comic Book Convention at C.H.U.D. Comic Book Show",
+    "location": "DoubleTree by Hilton, Laurel, US",
+    "start": "07/25/2021",
+    "end": "07/25/2021",
+    "url": "http://clandestinecomics.com/"
+  },
+  {
+    "event_name": "TerrifiCon",
+    "description": "Comic Book Convention at TerrifiCon",
+    "location": "Mohegan Sun, Uncasville, US",
+    "start": "07/30/2021",
+    "end": "08/02/2021",
+    "url": "http://www.terrificon.com"
+  },
+  {
+    "event_name": "Atlanta Comic Con",
+    "description": "Comic Book Convention at Atlanta Comic Con",
+    "location": "Atlanta, GA, US",
+    "start": "08/06/2021",
+    "end": "08/09/2021",
+    "url": "https://atlantacomiccon.com/"
+  },
+  {
+    "event_name": "MegaCon",
+    "description": "Comic Book Convention at MegaCon",
+    "location": "Orange County Convention Center, Orlando, US",
+    "start": "08/12/2021",
+    "end": "08/16/2021",
+    "url": "http://www.megaconvention.com/"
+  },
+  {
+    "event_name": "Grand Rapids Comic-Con: Summer Bash",
+    "description": "Comic Book Convention at Grand Rapids Comic-Con: Summer Bash",
+    "location": "DeltaPlex Arena & Conference Center, Walker, US",
+    "start": "08/13/2021",
+    "end": "08/16/2021",
+    "url": "https://www.grcomiccon.com/"
+  },
+  {
+    "event_name": "So-Cal Comi-Con 3.0",
+    "description": "Comic Book Convention at So-Cal Comi-Con 3.0",
+    "location": "Banning Parks & Recreation, Banning, US",
+    "start": "08/20/2021",
+    "end": "08/22/2021",
+    "url": "https://www.instagram.com/so.cal_comi.con_3.0/"
+  },
+  {
+    "event_name": "Awesome Con D.C.",
+    "description": "Comic Book Convention at Awesome Con D.C.",
+    "location": "Walter E. Washington Convention Center, Washington, US",
+    "start": "08/20/2021",
+    "end": "08/23/2021",
+    "url": "http://www.awesome-con.com/"
+  },
+  {
+    "event_name": "FlameCon",
+    "description": "Comic Book Convention at FlameCon",
+    "location": "New York, NY, US",
+    "start": "08/21/2021",
+    "end": "08/23/2021",
+    "url": "http://www.flamecon.org/"
+  },
+  {
+    "event_name": "Long Beach Comic Con",
+    "description": "Comic Book Convention at Long Beach Comic Con",
+    "location": "Long Beach Convention Center, 300 E. Ocean Boulevard, Long Beach, US",
+    "start": "09/04/2021",
+    "end": "09/06/2021",
+    "url": "http://www.longbeachcomiccon.com/"
+  },
+  {
+    "event_name": "LadiesCon",
+    "description": "Comic Book Convention at LadiesCon",
+    "location": "Somerville, MA, US",
+    "start": "09/09/2021",
+    "end": "09/12/2021",
+    "url": "https://www.ladiescon.com/"
+  },
+  {
+    "event_name": "Lexington Comic and Toy Convention",
+    "description": "Comic Book Convention at Lexington Comic and Toy Convention",
+    "location": "Lexington Center, Lexington, US",
+    "start": "09/09/2021",
+    "end": "09/13/2021",
+    "url": "http://www.lexingtoncomiccon.com/"
+  },
+  {
+    "event_name": "Rose City Comic Con",
+    "description": "Comic Book Convention at Rose City Comic Con",
+    "location": "Oregon Convention Center, Portland, US",
+    "start": "09/10/2021",
+    "end": "09/13/2021",
+    "url": "http://rosecitycomiccon.com/"
+  },
+  {
+    "event_name": "Cincinnati Comic Expo",
+    "description": "Comic Book Convention at Cincinnati Comic Expo",
+    "location": "Duke Energy Convention Center, Cincinnati, US",
+    "start": "09/17/2021",
+    "end": "09/20/2021",
+    "url": "http://cincinnaticomicexpo.com/"
+  },
+  {
+    "event_name": "Granite State Comicon",
+    "description": "Comic Book Convention at Granite State Comicon",
+    "location": "Radisson Hotel Manchester Downtown, Manchester, US",
+    "start": "09/18/2021",
+    "end": "09/20/2021",
+    "url": "http://www.granitecon.com/"
+  },
+  {
+    "event_name": "Heroes Assemble: The Con with a Cause",
+    "description": "Comic Book Convention at Heroes Assemble: The Con with a Cause",
+    "location": "Regency Square, Richmond, US",
+    "start": "09/18/2021",
+    "end": "09/20/2021",
+    "url": "https://gwecontact.org/convention-info"
+  },
+  {
+    "event_name": "UniCon",
+    "description": "Comic Book Convention at UniCon",
+    "location": "Las Vegas, NV, US",
+    "start": "10/01/2021",
+    "end": "10/04/2021",
+    "url": "https://www.unicon.vegas/"
+  },
+  {
+    "event_name": "Cleveland Comic Book and Nostalgia Festival",
+    "description": "Comic Book Convention at Cleveland Comic Book and Nostalgia Festival",
+    "location": "DoubleTree by Hilton Hotel Cleveland - Westlake, Westlake, US",
+    "start": "10/03/2021",
+    "end": "10/03/2021",
+    "url": "https://www.harpercomics.com/"
+  },
+  {
+    "event_name": "Toon-Con",
+    "description": "Comic Book Convention at Toon-Con",
+    "location": "Pasadena, CA, US",
+    "start": "10/10/2021",
+    "end": "10/10/2021",
+    "url": "https://toon-con.com"
+  },
+  {
+    "event_name": "Indiana Comic Con",
+    "description": "Comic Book Convention at Indiana Comic Con",
+    "location": "Indianapolis Convention Center, Indianapolis, US",
+    "start": "10/15/2021",
+    "end": "10/18/2021",
+    "url": "http://indianacomiccon.com/"
+  },
+  {
+    "event_name": "Baltimore Comic-Con",
+    "description": "Comic Book Convention at Baltimore Comic-Con",
+    "location": "Baltimore Convention Center, Baltimore, US",
+    "start": "10/22/2021",
+    "end": "10/25/2021",
+    "url": "http://baltimorecomiccon.com/"
+  },
+  {
+    "event_name": "Rhode Island Comic Con",
+    "description": "Comic Book Convention at Rhode Island Comic Con",
+    "location": "Rhode Island Convention Center, Providence, US",
+    "start": "11/05/2021",
+    "end": "11/08/2021",
+    "url": "http://www.ricomiccon.com/"
+  },
+  {
+    "event_name": "F.A.C.T.S.",
+    "description": "Comic Book Convention at F.A.C.T.S.",
+    "location": "Flanders Expo, Gent, BE",
+    "start": "11/06/2021",
+    "end": "11/08/2021",
+    "url": "http://www.facts.be/"
+  },
+  {
+    "event_name": "Buckeye Comic Con",
+    "description": "Comic Book Convention at Buckeye Comic Con",
+    "location": "Courtyard Columbus West, Columbus, US",
+    "start": "11/21/2021",
+    "end": "11/21/2021",
+    "url": "http://www.harpercomics.com/conventions.php"
+  },
+  {
+    "event_name": "NorthEast Comic Con and Collectibles Extravaganza",
+    "description": "Comic Book Convention at NorthEast Comic Con and Collectibles Extravaganza",
+    "location": "Boxboro Regency, Boxborough, US",
+    "start": "11/26/2021",
+    "end": "11/29/2021",
+    "url": "https://necomiccons.com/"
+  },
+  {
+    "event_name": "Comic Con Revolution",
+    "description": "Comic Book Convention at Comic Con Revolution",
+    "location": "Ontario Convention Center, Ontario, US",
+    "start": "12/18/2021",
+    "end": "12/20/2021",
+    "url": "http://comicconrevolution.com/"
+  },
+  {
+    "event_name": "Comic Con Revolution",
+    "description": "Comic Book Convention at Comic Con Revolution",
+    "location": "Ontario Convention Center, Ontario, US",
+    "start": "12/18/2021",
+    "end": "12/20/2021",
+    "url": "http://comicconrevolution.com/"
+  },
+  {
+    "event_name": "Phoenix Fan Fusion",
+    "description": "Comic Book Convention at Phoenix Fan Fusion",
+    "location": "Phoenix, AZ, US",
+    "start": "01/14/2022",
+    "end": "01/17/2022",
+    "url": "https://phoenixfanfusion.com/"
+  },
+  {
+    "event_name": "Simi Valley Toy and Comic Fest",
+    "description": "Comic Book Convention at Simi Valley Toy and Comic Fest",
+    "location": "Simi Valley, CA, US",
+    "start": "02/06/2022",
+    "end": "02/06/2022",
+    "url": "https://simivalleytoycomicfest.com/"
+  },
+  {
+    "event_name": "Con Nooga",
+    "description": "Comic Book Convention at Con Nooga",
+    "location": "Chattanooga, US",
+    "start": "02/18/2022",
+    "end": "02/21/2022",
+    "url": "http://www.connooga.com/"
+  },
+  {
+    "event_name": "Toronto ComiCon",
+    "description": "Comic Book Convention at Toronto ComiCon",
+    "location": "Metro Toronto Convention Centre, Toronto, CA",
+    "start": "03/18/2022",
+    "end": "03/21/2022",
+    "url": "http://www.comicontoronto.com/"
+  },
+  {
+    "event_name": "Sac Comic-Con",
+    "description": "Comic Book Convention at Sac Comic-Con",
+    "location": "Sacramento, CA, US",
+    "start": "03/20/2022",
+    "end": "03/20/2022",
+    "url": "http://www.sac-con.com/"
+  },
+  {
+    "event_name": "RodCon",
+    "description": "Comic Book Convention at RodCon",
+    "location": "Rod Library, Cedar Falls, US",
+    "start": "04/09/2022",
+    "end": "04/09/2022",
+    "url": "https://www.library.uni.edu/rod-con/"
+  },
+  {
+    "event_name": "HeroesCon",
+    "description": "Comic Book Convention at HeroesCon",
+    "location": "Charlotte Convention Center, 501 S. College St., Charlotte, US",
+    "start": "06/17/2022",
+    "end": "06/20/2022",
+    "url": "http://www.heroesonline.com/heroescon/"
+  },
+  {
+    "event_name": "Plastic City Comic Con",
+    "description": "Comic Book Convention at Plastic City Comic Con",
+    "location": "Wallace Civic Center, Fitchburg, US",
+    "start": "07/16/2022",
+    "end": "07/16/2022",
+    "url": "http://www.plasticcitycomiccon.com/"
+  }
+]

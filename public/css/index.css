@@ -1,17 +1,104 @@
 :root {
     --theme-blue: #34b0fa;
     --theme-yellow:#f6d73a;
+<<<<<<< HEAD
+=======
+    --theme-grey: #3e4348;
+>>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 }
 #navigation li:hover{
     background: #34b0fa;
 }
 
+<<<<<<< HEAD
 button {
     border: 2px solid;
     border-color:  var(--theme-blue) !important;
     background: white !important;
+=======
+#carousel img {
+    display: block;
+    margin: auto auto 10px;
+}
+
+#welcome .center-15 {
+    font-size: 30px;
+    font-family: 'Titan One', cursive;
+}
+
+button {
+    border: 2px solid;
+    background: lightgrey !important;
+}
+.carousel-indicators button {
+    border-radius: 50% !important;
+
+}
+
+.spacing {
+    margin: 50px;
+}
+
+.comic-bg {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210128/pngtree-yellow-and-orange-comic-background-image_546272.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-15 {
+    margin-left: 20%;
+}
+
+.masthead {
+    display: block;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bg-primary {
+    background-color: lightslategrey !important;
+>>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 }
 
 button:hover {
     background: #34b0fa !important;
+<<<<<<< HEAD
+=======
+    color: white !important;
+    border-color:  var(--theme-blue) !important;
+}
+
+.profile{
+    display: flex;
+    width: 100%;
+}
+
+.profile_img_div{
+    width: 200px;
+}
+
+.profile_img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile_content{
+    max-width: 600px;
+    padding-left: 50px;
+}
+
+.odd_row{
+    background-color: whitesmoke;
+}
+
+#full_page{
+    background-image: url('https://cdn.dirigible.studio/wp-content/uploads/sites/45/2017/01/16185558/yellow-bg-810x424.png');
+}
+
+#main{
+    background-color: white;
+>>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 }
