@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //npm i express body-parser mongoose
 //npm i express-session passport passport-local passport-local-mongoose
 
@@ -11,19 +10,12 @@ const session = require('express-session');
 const passport = require('passport');
 const passportLocalMongoose = require('passport-local-mongoose');
 
-//Configure body-parser and set static dir path.
-=======
-//npm i express body-parser mongoose jquery
-const express = require("express");
-const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
 
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 
-<<<<<<< HEAD
+
 //Initialize passport
 app.use(session({
     secret: process.env.PASSPORT_SECRET,
@@ -71,13 +63,11 @@ passport.use(User.createStrategy());
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
-=======
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
+
 app.listen(3000, function () {
     console.log("server started at 3000");
 });
 
-<<<<<<< HEAD
 app.get('/', function (req, res) {
     res.sendFile(__dirname + "/public/rsvp_list.html");
 });
@@ -97,16 +87,6 @@ app.get('/get_current_user', function (req, res) {
     }
 });
 
-app.get("/get_all_rsvps", function (req, res) {
-    Rsvp.find(function (err, data) {
-        if (err) {
-            res.send({
-                "message": "error",
-=======
-//Configure local Mongoose
-mongoose.connect('mongodb://localhost:27017/comicDB', {useNewUrlParser: true, useUnifiedTopology: true}, function() {
-    console.log("MongoDB connection successful");
-});
 
 const eventSchema = {
     event_name: String,
@@ -212,7 +192,6 @@ app.get("/node_get_all_members", function (req, res) {
         if (err) {
             res.send({
                 "message": "internal database error",
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
                 "data": []
             });
         } else {
@@ -224,21 +203,12 @@ app.get("/node_get_all_members", function (req, res) {
     });
 });
 
-<<<<<<< HEAD
-app.get('/get_rsvp_by_id', function (req, res) {
-    Rsvp.findOne({"_id": req.query.rsvp_id}, function (err, data) {
-        if (err) {
-            res.send({
-                "message": "error",
-                "data": {}
-=======
 app.get("/node_get_all_conventions", function (req, res) {
     Convention.find(function (err, data) {
         if (err) {
             res.send({
                 "message": "internal database error",
                 "data": []
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
             });
         } else {
             res.send({
@@ -249,126 +219,6 @@ app.get("/node_get_all_conventions", function (req, res) {
     });
 });
 
-<<<<<<< HEAD
-app.get('/register', (req, res) => {
-    if (req.query.error) {
-        res.redirect("/register.html?error=" + req.query.error);
-    } else {
-        res.redirect("/register.html");
-    }
-});
-
-app.post('/register', (req, res) => {
-    const newUser = {
-        username: req.body.username,
-        fullname: req.body.fullname
-    };
-    User.register(
-        newUser,
-        req.body.password,
-        function (err, user) {
-            if (err) {
-                console.log(err);
-                res.redirect("/register?error=" + err);
-            } else {
-                //write into cookies, authenticate code
-                const authenticate = passport.authenticate('local');
-                authenticate(req, res, function () {
-                    res.redirect("/");
-                });
-            }
-        }
-    );
-});
-
-
-app.get('/login', (req, res) => {
-    if (req.query.error) {
-        res.redirect("/login.html?error=" + req.query.error);
-    } else {
-        res.redirect("/login.html");
-    }
-});
-
-app.post('/login', (req, res) => {
-    const user = new User({
-        username: req.body.username,
-        password: req.body.password
-    });
-    req.login(
-        user,
-        function (err) {
-            if (err) {
-                console.log(err);
-                res.redirect('login?error=Invalid username or password');
-            } else {
-                const authenticate = passport.authenticate(
-                    'local',
-                    {
-                        successRedirect: '/',
-                        failureRedirect: '/login?error=Username and password dont match'
-                    });
-                authenticate(req, res);
-            }
-        }
-    )
-});
-
-
-app.get('/logout', (req, res) => {
-    req.logout();
-    res.redirect('/');
-});
-
-
-app.get("/edit", (req, res) => {
-    //A page can be viewed only after login
-    if (req.isAuthenticated()) {
-        res.sendFile(__dirname + "/src/rsvp_edit.html");
-    } else {
-        res.redirect('/login.html?error=You need to login first');
-    }
-
-});
-
-
-app.post('/like_movie', (req, res) => {
-    //Users need to login to like a movie
-    if (req.isAuthenticated()) {
-        //add user to movie
-        const movie_id = req.body.movie_id;
-        const user = {
-            username: req.user.username,
-            fullname: req.user.fullname
-        };
-        Movie.updateOne(
-            {_id: movie_id, 'likes.username' : {$ne:user.username}},
-            {
-                $push: {likes: user}
-            },
-            {},
-            (err, info) => {
-                if (err) {
-                    res.send({
-                        message: 'database error'
-                    });
-                } else {
-                    res.send({
-                        message: 'success'
-                    })
-                }
-            }
-        );
-    } else {
-        //navigate to login
-        res.send({
-            message: 'login required!',
-            data: '/login'
-        });
-    }
-
-
-=======
 app.get('/get_cons_by_filters',(req, res)=>{
     let sk = req.query.search_key;
     const hasSK = new RegExp(sk, "i")
@@ -392,5 +242,4 @@ app.get('/get_cons_by_filters',(req, res)=>{
 
         }
     });
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 });

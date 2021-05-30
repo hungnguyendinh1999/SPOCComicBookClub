@@ -1,21 +1,12 @@
 :root {
     --theme-blue: #34b0fa;
     --theme-yellow:#f6d73a;
-<<<<<<< HEAD
-=======
     --theme-grey: #3e4348;
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 }
 #navigation li:hover{
     background: #34b0fa;
 }
 
-<<<<<<< HEAD
-button {
-    border: 2px solid;
-    border-color:  var(--theme-blue) !important;
-    background: white !important;
-=======
 #carousel img {
     display: block;
     margin: auto auto 10px;
@@ -59,13 +50,10 @@ button {
 
 .bg-primary {
     background-color: lightslategrey !important;
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 }
 
 button:hover {
     background: #34b0fa !important;
-<<<<<<< HEAD
-=======
     color: white !important;
     border-color:  var(--theme-blue) !important;
 }
@@ -100,5 +88,4 @@ button:hover {
 
 #main{
     background-color: white;
->>>>>>> aeb1f4caaad6bfe033db51ef753f9a762abe53fc
 }
