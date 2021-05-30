@@ -85,3 +85,7 @@ button:hover {
 #full_page{
     background-image: url('https://cdn.dirigible.studio/wp-content/uploads/sites/45/2017/01/16185558/yellow-bg-810x424.png');
 }
+
+#main{
+    background-color: white;
+}

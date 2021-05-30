@@ -58,33 +58,33 @@
         </div>
     </nav>
 </section>
-
-<section>
-    <h1>Upcoming Conventions</h1>
-    <div class="row">
-        <div class="col-lg-3">
-            <div class="input-group mb-3">
-                <input id="search_box" type="search" class="form-control" placeholder="Search conventions..."
-                       aria-label="Search"
-                       aria-describedby="basic-addon2" onsearch="search()"/>
-                <span class="input-group-text" id="basic-addon2" onclick="search()"><i class="fas fa-search"></i></span>
+<section id="main">
+    <section>
+        <h1>Upcoming Conventions</h1>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="input-group mb-3">
+                    <input id="search_box" type="search" class="form-control" placeholder="Search conventions..."
+                           aria-label="Search"
+                           aria-describedby="basic-addon2" onsearch="search()"/>
+                    <span class="input-group-text" id="basic-addon2" onclick="search()"><i class="fas fa-search"></i></span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <p>Event</p>
+        <div class="row">
+            <div class="col">
+                <p>Event</p>
+            </div>
+            <div class="col">
+                <p id="dates">Dates <i class="date-sort fas fa-sort-down"></i></p>
+            </div>
+            <div class="col">
+                <p>Location</p>
+            </div>
         </div>
-        <div class="col">
-            <p id="dates">Dates <i class="date-sort fas fa-sort-down"></i></p>
-        </div>
-        <div class="col">
-            <p>Location</p>
-        </div>
-    </div>
-    <ul class="list-group">
-    </ul>
+        <ul class="list-group">
+        </ul>
+    </section>
 </section>
-
 </body>
 </html>
