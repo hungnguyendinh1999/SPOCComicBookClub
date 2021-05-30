@@ -1,0 +1,165 @@
+span {
+    font-size: 1.1rem;
+}
+
+#contact_intro {
+    margin-top: 1rem;
+}
+
+.btn {
+    border: none;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    width: 25% !important;
+    height: auto;
+    font-size: 100% !important;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.btn:before {
+    font-family: 'FontAwesome';
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn:hover {
+    color: #bfbfbf;
+}
+
+
+.btn-sep {
+    padding: 25px 60px 25px 120px;
+}
+
+.btn-sep:before {
+    background: rgba(0,0,0,0.15);
+}
+
+/* Button 1 */
+.btn-1 {
+    background: #3498db;
+    color: #fff;
+}
+
+.btn-1:hover {
+    background: #2980b9;
+}
+
+.btn-1:active {
+    background: #2980b9;
+    top: 2px;
+}
+
+.btn-1:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* Button 2 */
+.btn-2 {
+    background: #7289DA;
+    color: #fff;
+}
+
+.btn-2:hover {
+    background: #5874db;
+}
+
+.btn-2:active {
+    background: #5874db;
+    top: 2px;
+}
+
+.btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* Button 3 */
+.btn-3 {
+    background: #e74c3c;
+    color: #fff;
+}
+
+.btn-3:hover {
+    background: #c0392b;
+}
+
+.btn-3:active {
+    background: #c0392b;
+    top: 2px;
+}
+
+.btn-3:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* Button 3 */
+.btn-4 {
+    background: #34495e;
+    color: #fff;
+}
+
+.btn-4:hover {
+    background: #2c3e50;
+}
+
+.btn-4:active {
+    background: #2c3e50;
+    top: 2px;
+}
+
+.btn-4:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+/* Icons */
+
+.icon-fb:before {
+    content: "\f39e";
+}
+
+.icon-dc:before {
+    content: "\f392";
+}
+
+.icon-cl:before {
+    content: "\f19c";
+}
+
+.icon-send:before {
+    content: "\f1d8";
+}
