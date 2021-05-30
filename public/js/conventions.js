@@ -46,9 +46,10 @@ $('#dates').on('click', function () {
     increasing=!increasing
     if (increasing){
         list.sort((a,b)=>{return new Date(a.start)-new Date(b.start)});
+        $('.date-sort').removeClass('fa-sort-up').addClass('fa-sort-down');
     } else {
         list.sort((a,b)=>{return new Date(b.start)-new Date(a.start)});
-
+        $('.date-sort').removeClass('fa-sort-down').addClass('fa-sort-up');
     }
     showList(list);
 });

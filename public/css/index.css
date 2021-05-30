@@ -78,10 +78,10 @@ button:hover {
     padding-left: 50px;
 }
 
-#main{
-    padding-left: 35px;
-}
-
 .odd_row{
     background-color: whitesmoke;
+}
+
+#full_page{
+    background-image: url('https://cdn.dirigible.studio/wp-content/uploads/sites/45/2017/01/16185558/yellow-bg-810x424.png');
 }
