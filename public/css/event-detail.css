@@ -1,0 +1,22 @@
+:root {
+    --theme-blue: #34b0fa;
+    --theme-yellow:#f6d73a;
+    --theme-grey: #3e4348;
+    --near-white: #F5F5Fb;
+}
+
+.image-part {
+    background-color: white !important;
+}
+
+.image-part img {
+    height: 100%;
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+
+}
+
+.bg-near-white {
+    background-color: var(--near-white);
+}

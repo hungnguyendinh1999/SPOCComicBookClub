@@ -1,112 +1,13 @@
 [
   {
-    "event_name": "Board Game Night",
-    "date": "Thursday, January 30 2021",
-    "time_from": "8:00 PM EST",
-    "time_to": "9:00 PM EST",
-    "location": "Lurie Conference Room, UC",
-    "description": "Offering hundreds of board games, including well-known favorites like UNO, Monopoly, Settlers of Catan and Cards Against Humanity (plus several expansions!), to less-known but well-regarded games like Ticket to Ride, Coup and Dominion, we invite you to a night of board games! Magic the Gathering and other card game players welcome as well!",
-    "img_url": "https://images.collegiatelink.net/clink/images/6ecf22f6-3bb3-41f1-8acf-19ef4f176c61d322738f-1d9a-4228-8ec5-999be7924b21.pdf?preset=med-w",
-    "categories": ["Game"]
-  },
-
-  {
     "event_name": "Comic Book Night",
-    "date": "Friday, January 31 2021",
+    "date": "Friday, May 9 2021",
     "time_from": "7:00 PM EST",
     "time_to": "8:00 PM EST",
     "location": "University Center 311 (SPOC Office)",
     "description": "A meeting for the Comic Book / Manga club. Those who love to discuss, analyze and just plain geek out about your favorite comics and manga, come vote on our themes and meeting times for the year!",
     "img_url": "https://images.collegiatelink.net/clink/images/78d7ca76-5aa9-4bff-bdcb-3aaf5d417bafa8373b27-368e-41ec-819a-4e2444235bc8.png?preset=med-w",
     "categories": ["Meeting","Comic"]
-  },
-
-  {
-    "event_name": "Arcade Night",
-    "date": "Friday, January 31 2021",
-    "time_from": "8:00 PM EST",
-    "time_to": "10:00 PM EST",
-    "location": "University Center 311 (SPOC Office)",
-    "description": "Do you like games? How about ALL the games? Well, whether you enjoy retro gaming, current consoles, or more traditional fare like board games or card games, SPOC has what you're looking for! We're a group of super chill nerds who love just about every nerd culture under the sun. So, whether you're looking for a little friendly competition or just someone to gush to about the latest nerd hype, come on up to our office! We love seeing new faces.",
-    "img_url": "https://images.collegiatelink.net/clink/images/21393970-d030-46c7-b50a-7ef1056c05bd214b0bfb-ce96-4f1c-a4c1-15d7be854ae4.png?preset=med-w",
-    "categories": ["Game"]
-  },
-
-  {
-    "event_name": "Arcade Night",
-    "date": "Saturday, February 1 2021",
-    "time_from": "4:00 PM EST",
-    "time_to": "11:45 PM EST",
-    "location": "University Center 311 (SPOC Office)",
-    "description": "Do you like games? How about ALL the games? Well, whether you enjoy retro gaming, current consoles, or more traditional fare like board games or card games, SPOC has what you're looking for! We're a group of super chill nerds who love just about every nerd culture under the sun. So, whether you're looking for a little friendly competition or just someone to gush to about the latest nerd hype, come on up to our office! We love seeing new faces.",
-    "img_url": "https://images.collegiatelink.net/clink/images/21393970-d030-46c7-b50a-7ef1056c05bd214b0bfb-ce96-4f1c-a4c1-15d7be854ae4.png?preset=med-w",
-    "categories": ["Game"]
-  },
-
-  {
-    "event_name": "Mario Kart Tournament",
-    "date": "Saturday, February 1 2021",
-    "time_from": "8:00 PM EST",
-    "time_to": "11:45 PM EST",
-    "location": "Lurie Conference Room, UC",
-    "description": "Are you up on all of your latest Mario Kart strategies? I hope so, because on Saturday you'll have the opportunity to drift your way to victory in SPOC's Mario Kart tournament! Come battle it out with your friends as you weave around obstacles, engage in some last-minute red shell sniping, and pray for that blue shell! Will you be the master of Mario Kart 8? Come to the tournament and try your luck!",
-    "img_url": "https://images.collegiatelink.net/clink/images/e40cc580-4e04-4f81-8d55-269004c26af5537d64a3-5cd2-4166-93e7-d8a277917ac8.png?preset=med-w",
-    "categories": ["Game", "Video game", "Competition"]
-  },
-
-  {
-    "event_name": "Smash Ultimate Tournament",
-    "date": "Saturday, February 8 2020",
-    "time_from": "8:00 PM EST",
-    "time_to": "11:45 PM EST",
-    "location": "Lurie Conference Room, UC",
-    "description": "Join us for the ultimate fighting game in this 1 v 1 Smash Tournament. Play as your favorite video games characters as they battle it in this beloved franchise. Bring your friends. Bring your enemies and crush them. Settle it in SMASH!",
-    "img_url": "https://images.collegiatelink.net/clink/images/5995c17d-21b3-43ca-91e4-3f6f5d7684c43be324d3-54b0-4c02-8239-c5411a560c61.png?preset=med-w",
-    "categories": ["Game","Video game","Competition"]
-  },
-
-  {
-    "event_name": "Magic the Gathering Draft",
-    "date": "Saturday, February 15 2020",
-    "time_from": "3:00 PM EST",
-    "time_to": "11:45 PM EST",
-    "location": "3rd Floor of the UC Asher Suite",
-    "description": "Have you ever wondered about the most popular trading card game in the world? Always worried that it would be too expensive to play or difficult to learn? Come to a Magic the Gathering Draft. There will be prizes for the winner. More experienced players are welcome to come for the draft.  If you are new or interested in Magic, feel free to come by and learn the game.",
-    "img_url": "https://images.collegiatelink.net/clink/images/c9394378-6c68-467b-88ad-f71d66ace65adc8dcf9c-f4b0-42bc-8a2c-c2c5dc6dafd2.png?preset=med-w",
-    "categories": ["Game","Competition","Card game"]
-  },
-
-  {
-    "event_name": "Poker Night",
-    "date": "Monday, February 3 2020",
-    "time_from": "7:30 PM EST",
-    "time_to": "9:00 PM EST",
-    "location": "Sackler 223",
-    "description": "Come learn to play one of the most popular card games in the world this monday from 7:30 - 9 at the first clark university Poker Theory night!",
-    "img_url": "https://images.collegiatelink.net/clink/images/723e51b9-df3d-498d-96af-b707e15d40932d29b4e2-5974-45d1-9cdf-0b7c2793cbe8.png?preset=med-w",
-    "categories": ["Game", "Card game"]
-  },
-
-  {
-    "event_name": "Poker Night",
-    "date": "Monday, February 17 2020 ",
-    "time_from": "7:30 PM EST",
-    "time_to": "8:30 PM EST",
-    "location": "Sackler 223",
-    "description": "Come learn to play one of the most popular card games in the world this monday from 7:30 - 8:30 at the first clark university Poker Theory night!",
-    "img_url": "https://images.collegiatelink.net/clink/images/723e51b9-df3d-498d-96af-b707e15d40932d29b4e2-5974-45d1-9cdf-0b7c2793cbe8.png?preset=med-w",
-    "categories": ["Game", "Card game"]
-  },
-
-  {
-    "event_name": "Poker Night",
-    "date": "Monday, February 10 2020",
-    "time_from": "7:30 PM EST",
-    "time_to": "9:00 PM EST",
-    "location": "Sackler 223",
-    "description": "Come learn to play one of the most popular card games in the world this monday from 7:30 - 9 at the first clark university Poker Theory night!",
-    "img_url": "https://images.collegiatelink.net/clink/images/723e51b9-df3d-498d-96af-b707e15d40932d29b4e2-5974-45d1-9cdf-0b7c2793cbe8.png?preset=med-w",
-    "categories": ["Game", "Card game"]
   },
 
   {
@@ -121,13 +22,113 @@
   },
 
   {
+    "event_name": "Magic the Gathering Draft",
+    "date": "Saturday, March 14 2021",
+    "time_from": "3:00 PM EST",
+    "time_to": "11:45 PM EST",
+    "location": "3rd Floor of the UC Asher Suite",
+    "description": "Have you ever wondered about the most popular trading card game in the world? Always worried that it would be too expensive to play or difficult to learn? Come to a Magic the Gathering Draft. There will be prizes for the winner. More experienced players are welcome to come for the draft.  If you are new or interested in Magic, feel free to come by and learn the game.",
+    "img_url": "https://images.collegiatelink.net/clink/images/c9394378-6c68-467b-88ad-f71d66ace65adc8dcf9c-f4b0-42bc-8a2c-c2c5dc6dafd2.png?preset=med-w",
+    "categories": ["Game","Competition","Card game"]
+  },
+
+  {
+    "event_name": "Poker Night",
+    "date": "Monday, February 17 2021",
+    "time_from": "7:30 PM EST",
+    "time_to": "8:30 PM EST",
+    "location": "Sackler 223",
+    "description": "Come learn to play one of the most popular card games in the world this monday from 7:30 - 8:30 at the first clark university Poker Theory night!",
+    "img_url": "https://images.collegiatelink.net/clink/images/723e51b9-df3d-498d-96af-b707e15d40932d29b4e2-5974-45d1-9cdf-0b7c2793cbe8.png?preset=med-w",
+    "categories": ["Game", "Card game"]
+  },
+
+  {
     "event_name": "Dungeons and Dragons Night",
-    "date": "Saturday, February 15 2020",
+    "date": "Saturday, February 15 2021",
     "time_from": "8:00 PM EST",
     "time_to": "11:45 PM EST",
     "location": "Lurie Conference Room, UC",
     "description": "Have you ever wanted to try out dungeons and dragons but don't know how to start? Are you a long term DND fan and want to find more people on campus to play with? Do you want to learn what a Dungeons and Dragons really is? Science Fiction People of Clark (SPOC) is running a intro to Dungeons and Dragons night! Learn the basics of how to play the game, then split off with several dungeon masters to start a campaign and try the game out for yourself!",
     "img_url": "https://images.collegiatelink.net/clink/images/33e75310-f892-4466-8844-3f1e8ddac89cea98897b-40bc-4119-8ce1-0282c7e6cd9b.png?preset=med-w",
     "categories": ["Game", "RPG"]
+  },
+
+  {
+    "event_name": "Poker Night",
+    "date": "Monday, February 10 2021",
+    "time_from": "7:30 PM EST",
+    "time_to": "9:00 PM EST",
+    "location": "Sackler 223",
+    "description": "Come learn to play one of the most popular card games in the world this monday from 7:30 - 9 at the first clark university Poker Theory night!",
+    "img_url": "https://images.collegiatelink.net/clink/images/723e51b9-df3d-498d-96af-b707e15d40932d29b4e2-5974-45d1-9cdf-0b7c2793cbe8.png?preset=med-w",
+    "categories": ["Game", "Card game"]
+  },
+
+  {
+    "event_name": "Smash Ultimate Tournament",
+    "date": "Saturday, February 8 2021",
+    "time_from": "8:00 PM EST",
+    "time_to": "11:45 PM EST",
+    "location": "Lurie Conference Room, UC",
+    "description": "Join us for the ultimate fighting game in this 1 v 1 Smash Tournament. Play as your favorite video games characters as they battle it in this beloved franchise. Bring your friends. Bring your enemies and crush them. Settle it in SMASH!",
+    "img_url": "https://images.collegiatelink.net/clink/images/5995c17d-21b3-43ca-91e4-3f6f5d7684c43be324d3-54b0-4c02-8239-c5411a560c61.png?preset=med-w",
+    "categories": ["Game","Video game","Competition"]
+  },
+
+  {
+    "event_name": "Poker Night",
+    "date": "Monday, February 3 2021",
+    "time_from": "7:30 PM EST",
+    "time_to": "9:00 PM EST",
+    "location": "Sackler 223",
+    "description": "Come learn to play one of the most popular card games in the world this monday from 7:30 - 9 at the first clark university Poker Theory night!",
+    "img_url": "https://images.collegiatelink.net/clink/images/723e51b9-df3d-498d-96af-b707e15d40932d29b4e2-5974-45d1-9cdf-0b7c2793cbe8.png?preset=med-w",
+    "categories": ["Game", "Card game"]
+  },
+
+  {
+    "event_name": "Mario Kart Tournament",
+    "date": "Saturday, February 1 2021",
+    "time_from": "8:00 PM EST",
+    "time_to": "11:45 PM EST",
+    "location": "Lurie Conference Room, UC",
+    "description": "Are you up on all of your latest Mario Kart strategies? I hope so, because on Saturday you'll have the opportunity to drift your way to victory in SPOC's Mario Kart tournament! Come battle it out with your friends as you weave around obstacles, engage in some last-minute red shell sniping, and pray for that blue shell! Will you be the master of Mario Kart 8? Come to the tournament and try your luck!",
+    "img_url": "https://images.collegiatelink.net/clink/images/e40cc580-4e04-4f81-8d55-269004c26af5537d64a3-5cd2-4166-93e7-d8a277917ac8.png?preset=med-w",
+    "categories": ["Game", "Video game", "Competition"]
+  },
+
+  {
+    "event_name": "Arcade Night",
+    "date": "Saturday, February 1 2021",
+    "time_from": "4:00 PM EST",
+    "time_to": "11:45 PM EST",
+    "location": "University Center 311 (SPOC Office)",
+    "description": "Do you like games? How about ALL the games? Well, whether you enjoy retro gaming, current consoles, or more traditional fare like board games or card games, SPOC has what you're looking for! We're a group of super chill nerds who love just about every nerd culture under the sun. So, whether you're looking for a little friendly competition or just someone to gush to about the latest nerd hype, come on up to our office! We love seeing new faces.",
+    "img_url": "https://images.collegiatelink.net/clink/images/21393970-d030-46c7-b50a-7ef1056c05bd214b0bfb-ce96-4f1c-a4c1-15d7be854ae4.png?preset=med-w",
+    "categories": ["Game"]
+  },
+
+  {
+    "event_name": "Arcade Night",
+    "date": "Friday, January 31 2021",
+    "time_from": "8:00 PM EST",
+    "time_to": "10:00 PM EST",
+    "location": "University Center 311 (SPOC Office)",
+    "description": "Do you like games? How about ALL the games? Well, whether you enjoy retro gaming, current consoles, or more traditional fare like board games or card games, SPOC has what you're looking for! We're a group of super chill nerds who love just about every nerd culture under the sun. So, whether you're looking for a little friendly competition or just someone to gush to about the latest nerd hype, come on up to our office! We love seeing new faces.",
+    "img_url": "https://images.collegiatelink.net/clink/images/21393970-d030-46c7-b50a-7ef1056c05bd214b0bfb-ce96-4f1c-a4c1-15d7be854ae4.png?preset=med-w",
+    "categories": ["Game"]
+  },
+
+  {
+    "event_name": "Board Game Night",
+    "date": "Thursday, January 30 2021",
+    "time_from": "8:00 PM EST",
+    "time_to": "9:00 PM EST",
+    "location": "Lurie Conference Room, UC",
+    "description": "Offering hundreds of board games, including well-known favorites like UNO, Monopoly, Settlers of Catan and Cards Against Humanity (plus several expansions!), to less-known but well-regarded games like Ticket to Ride, Coup and Dominion, we invite you to a night of board games! Magic the Gathering and other card game players welcome as well!",
+    "img_url": "https://static.thuthuatchoi.com/media/photos/shares/Boardgame/boardgamechung/Board_game_l___g__.jpg",
+    "categories": ["Game"]
   }
+
 ]

@@ -53,18 +53,40 @@ app.get('/SPOC-calendar', function(req, res) {
     res.sendFile(__dirname+ "/public/SPOC-calendar.html");
 })
 
+app.get('/event-detail', function(req, res) {
+    res.sendFile(__dirname+ "/public/event-detail.html");
+})
+
 // Private
 app.get('/get_all_SPOC_events', function(req,res) {
     SPOCEvent.find(function(err, data) {
         if(err) {
             res.send({
-                "message": "internal database error: code SPOC",
+                "message": "internal database error: SPOC_ALL",
                 "data": []
             });
         } else {
             res.send({
                 "message": "success",
                 "data": data
+            })
+        }
+    })
+})
+
+app.get('/get_event_by_id', function(req,res) {
+    console.log(req.query.event_id)
+
+    SPOCEvent.find({"_id": req.query.event_id},function(err, data) {
+        if (err || data.length === 0) {
+            res.send({
+                "message": "internal database error: SPOC_by_ID",
+                "data": {}
+            })
+        } else {
+            res.send({
+                "message": "success",
+                "data": data[0]
             })
         }
     })

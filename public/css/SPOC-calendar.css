@@ -1,0 +1,66 @@
+:root {
+    --theme-blue: #34b0fa;
+    --theme-yellow: #f6d73a;
+    --theme-grey: #3e4348;
+}
+
+.bg-blue {
+    background-color: var(--theme-blue);
+)
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 8px;
+
+}
+
+#event_grid {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 25px;
+}
+
+#event_grid img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#event_grid p {
+    color: rgb(68, 68, 68);
+    font-size: 12px;
+}
+
+.box-form {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+    height: auto;
+}
+
+.category-tag {
+    border: 10px;
+    box-sizing: border-box;
+    display: inline flex;
+    margin: 10px 3px;
+    position: relative;
+    background-color: rgb(224, 224, 224);
+    border-radius: 16px;
+    white-space: nowrap;
+    width: fit-content;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 1px 20px;
+    user-select: none;
+}
