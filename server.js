@@ -1,3 +1,4 @@
+//npm i express body-parser mongoose jquery
 const express = require("express");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -26,7 +27,28 @@ const eventSchema = {
     categories: [String]
 }
 
+const memberSchema = new mongoose.Schema({
+    fullname: String,
+    image_path: String,
+    roles: String,
+    pronouns: String,
+    description: String
+});
+
+const conSchema = new mongoose.Schema({
+    event_name: String,
+    description: String,
+    location: String,
+    start: Date,
+    end: Date,
+    url:String
+});
+
 const SPOCEvent = mongoose.model('SPOCEvent', eventSchema);
+
+const Member = mongoose.model('Member',memberSchema);
+
+const Convention = mongoose.model('Convention',conSchema);
 
 // Public Directories
 app.get('/', function(req,res) {
@@ -91,3 +113,61 @@ app.get('/get_event_by_id', function(req,res) {
         }
     })
 })
+
+
+app.get("/node_get_all_members", function (req, res) {
+    Member.find(function (err, data) {
+        if (err) {
+            res.send({
+                "message": "internal database error",
+                "data": []
+            });
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+        }
+    });
+});
+
+app.get("/node_get_all_conventions", function (req, res) {
+    Convention.find(function (err, data) {
+        if (err) {
+            res.send({
+                "message": "internal database error",
+                "data": []
+            });
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
+        }
+    });
+});
+
+app.get('/get_cons_by_filters',(req, res)=>{
+    let sk = req.query.search_key;
+    const hasSK = new RegExp(sk, "i")
+    Convention.find({
+        $or: [
+            {event_name: {$regex: hasSK}},
+            {description: {$regex: hasSK}},
+            {location: {$regex: hasSK}}
+        ]
+    }, (err,data) =>{
+        if (err) {
+            res.send({
+                "message":"db error",
+                "data":[]
+            });
+        } else {
+            res.send({
+                "message":"success",
+                "data":data
+            });
+
+        }
+    });
+});

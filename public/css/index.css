@@ -57,3 +57,31 @@ button:hover {
     color: white !important;
     border-color:  var(--theme-blue) !important;
 }
+
+.profile{
+    display: flex;
+    width: 100%;
+}
+
+.profile_img_div{
+    width: 200px;
+}
+
+.profile_img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile_content{
+    max-width: 600px;
+    padding-left: 50px;
+}
+
+#main{
+    padding-left: 35px;
+}
+
+.odd_row{
+    background-color: whitesmoke;
+}

@@ -47,3 +47,73 @@ SPOCEvent.insertMany(eventList, {}, function (err) {
         mongoose.connection.close();
     }
 });
+
+const memberdata = fs.readFileSync(__dirname + "/members.json");
+memberJSON = JSON.parse(memberdata);
+
+const memberSchema = new mongoose.Schema({
+    fullname: String,
+    image_path: String,
+    roles: String,
+    pronouns: String,
+    description: String
+});
+
+const Member = mongoose.model('Member', memberSchema);
+
+memberList = []
+
+memberJSON.forEach(function (member) {
+    memberList.push({
+        "fullname": member["fullname"],
+        "image_path": member["image_path"],
+        "roles": member["roles"],
+        "pronouns": member["pronouns"],
+        "description": member["description"]
+    });
+});
+
+Member.insertMany(memberList, function (err) {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("All data saved");
+        mongoose.connection.close();
+    }
+});
+
+const condata = fs.readFileSync(__dirname + "/conventions.json");
+conJSON = JSON.parse(condata);
+
+const conSchema = new mongoose.Schema({
+    event_name: String,
+    description: String,
+    location: String,
+    start: Date,
+    end: Date,
+    url:String
+});
+
+const Convention = mongoose.model('Convention', conSchema);
+
+conList = []
+
+conJSON.forEach(function (convention) {
+    conList.push({
+        "event_name": convention["event_name"],
+        "description": convention["description"],
+        "location": convention["location"],
+        "start": new Date(convention["start"]),
+        "end": new Date(convention["end"]),
+        "url": convention["url"]
+    });
+});
+
+Convention.insertMany(conList, function (err) {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("All data saved");
+        mongoose.connection.close();
+    }
+});

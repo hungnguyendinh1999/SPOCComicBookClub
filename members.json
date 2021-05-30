@@ -1,0 +1,23 @@
+[
+  {
+    "fullname": "Griffin Ford",
+    "image_path": "img/Griffin_Ford.jpg",
+    "roles": "SPOC Treasurer",
+    "pronouns": "She/Her",
+    "description": "Griffin Ford is an X-Men fan who helps the club keep up to date on Marvel Comics runs. If she's not complaining about the MCU you can find her gushing over Eye-Boy or Glob."
+  },
+  {
+    "fullname": "Luke d'Entremont",
+    "image_path": "img/Luke_dEntremont.jpg",
+    "roles": "",
+    "pronouns": "They/Them",
+    "description": "Luke d'Entremont is a fan of the works of James Tynion, and helps the club cover DC runs. Ask them about The Outsider and buckle up for an in-depth discussion about Alfred Pennyworth in purple spandex."
+  },
+  {
+    "fullname": "Francisco Noack",
+    "image_path": "img/Francisco_Noack.jpg",
+    "roles": "",
+    "pronouns": "He/Him",
+    "description": "Francisco (Paco) Noack enjoys 17776, a Football Story and Atomic Robo. His depth of knowledge mainly covers anime and webcomics. He talks too much about Godzilla"
+  }
+]
