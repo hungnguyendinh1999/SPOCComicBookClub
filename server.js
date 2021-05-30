@@ -1,92 +1,19 @@
-//npm i express body-parser mongoose
-//npm i express-session passport passport-local passport-local-mongoose
-
 const express = require("express");
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-require('dotenv').config()
-//Add sessions
-const session = require('express-session');
-const passport = require('passport');
-const passportLocalMongoose = require('passport-local-mongoose');
-
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 
-
-//Initialize passport
-app.use(session({
-    secret: process.env.PASSPORT_SECRET,
-    resave: false,
-    saveUninitialized: false
-}));
-app.use(passport.initialize());
-app.use(passport.session());
-
-//Configure Mongoose
-mongoose.connect('mongodb://localhost:27017/comicDB', {useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.set("useCreateIndex", true);
-
-
-const rsvpSchema = {
-    name: String,
-    email: String,
-    head_count: Number,
-    message: String
-};
-
-const Rsvp = mongoose.model('Rsvp', rsvpSchema);
-const userSchema = new mongoose.Schema(
-    {
-        username: {
-            type: String,
-            unique: true,
-            require: true,
-            minlength: [5, 'username > 3 char']
-        },
-        password: {
-            type: String,
-            require: true
-        },
-        fullname: {
-            type: String,
-            require: true
-        }
-    }
-);
-
-userSchema.plugin(passportLocalMongoose);
-const User = mongoose.model('User', userSchema);
-passport.use(User.createStrategy());
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
-
-
 app.listen(3000, function () {
     console.log("server started at 3000");
 });
 
-app.get('/', function (req, res) {
-    res.sendFile(__dirname + "/public/rsvp_list.html");
+//Configure local Mongoose
+mongoose.connect('mongodb://localhost:27017/comicDB', {useNewUrlParser: true, useUnifiedTopology: true}, function() {
+    console.log("MongoDB connection successful");
 });
-
-app.get('/get_current_user', function (req, res) {
-    if (req.isAuthenticated()) {
-        console.log(req.user);
-        res.send({
-            message: 'success',
-            data: req.user
-        });
-    } else {
-        res.send({
-            message: 'no login',
-            data: {}
-        })
-    }
-});
-
 
 const eventSchema = {
     event_name: String,
