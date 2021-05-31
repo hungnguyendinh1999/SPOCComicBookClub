@@ -43,11 +43,21 @@ const conSchema = new mongoose.Schema({
     url:String
 });
 
+const rsvpSchema = new mongoose.Schema({
+    name: String,
+    avatar: String,
+    email: String,
+    head_count: Number,
+    message: String
+});
+
 const SPOCEvent = mongoose.model('SPOCEvent', eventSchema);
 
 const Member = mongoose.model('Member',memberSchema);
 
 const Convention = mongoose.model('Convention',conSchema);
+
+const Rsvp = mongoose.model('Rsvp', rsvpSchema);
 
 // Public Directories
 app.get('/', function(req,res) {
@@ -62,12 +72,16 @@ app.get('/conventions', function(req,res) {
     res.sendFile(__dirname+"/public/conventions.html");
 })
 
-app.get('/weekly-meeting', function(req,res) {
-    res.sendFile(__dirname+"/public/weekly.html"); // subject to change
+app.get('/weekly_meeting', function(req,res) {
+    res.sendFile(__dirname+"/public/rsvp_list.html"); // subject to change
+})
+
+app.get('/edit', function(req,res) {
+    res.sendFile(__dirname+"/public/rsvp_edit.html");
 })
 
 app.get('/contacts', function(req,res) {
-    res.sendFile(__dirname+"/public/contacts.html");
+    res.sendFile(__dirname+"/public/contact.html");
 })
 
 app.get('/SPOC-calendar', function(req, res) {
@@ -112,7 +126,6 @@ app.get('/get_event_by_id', function(req,res) {
         }
     })
 })
-
 
 app.get("/node_get_all_members", function (req, res) {
     Member.find(function (err, data) {
@@ -167,6 +180,51 @@ app.get('/get_cons_by_filters',(req, res)=>{
                 "data":data
             });
 
+        }
+    });
+});
+
+app.post("/save_rsvp", (req, res) => {
+    let avatar = null;
+    if (!req.body.avatar) {
+        avatar = "https://cdn.vox-cdn.com/thumbor/X7fW7KYz0XEz57TAGoUcDU2YpbA=/0x0:696x534/1200x800/filters:focal(293x212:403x322)/cdn.vox-cdn.com/uploads/chorus_image/image/69312307/Untitled.0.jpg";
+    } else {
+        avatar = req.body.avatar;
+    }
+    const rsvp = {
+        name: req.body.name,
+        email: req.body.email,
+        avatar: avatar,
+        head_count: req.body.head_count,
+        message: req.body.message
+    }
+
+    const nr = new Rsvp(rsvp);
+    nr.save(
+        (err, new_rsvp) => {
+            if (err) {
+                console.log(err['message']);
+            } else {
+                console.log(new_rsvp._id);
+                res.redirect("/weekly_meeting");
+            }
+        }
+    );
+
+});
+
+app.get("/get_all_rsvps", function (req, res) {
+    Rsvp.find(function (err, data) {
+        if (err) {
+            res.send({
+                "message": "error",
+                "data": []
+            });
+        } else {
+            res.send({
+                "message": "success",
+                "data": data
+            })
         }
     });
 });

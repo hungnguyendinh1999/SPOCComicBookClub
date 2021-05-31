@@ -1,9 +1,12 @@
 $('form').on('submit', function () {
     let errorMessage = null
     $.each($('input,textarea'), function () {
+        let parentLabel = $(this).parent().find('label').text();
         if (!$(this).val()) {
-            errorMessage = `${$(this).parent().find('label').text()} cannot be empty`;
-            return false
+            if (parentLabel !== 'Avatar url (Optional)'){
+                errorMessage = `${parentLabel} cannot be empty`;
+                return false;
+            }
         }
     });
     if (errorMessage !== null) {
@@ -12,5 +15,7 @@ $('form').on('submit', function () {
     }
 });
 
+function onCancel() {
+    location.href = "/weekly_meeting";
 
-
+}

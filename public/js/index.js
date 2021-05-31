@@ -12,5 +12,5 @@ $("#get_in_contacts").on('click', function () {
 })
 
 $("#our_weekly").on('click', function () {
-    location.href = "weekly-meeting";
+    location.href = "weekly_meeting";
 })

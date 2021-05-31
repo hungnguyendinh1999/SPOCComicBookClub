@@ -117,3 +117,38 @@ Convention.insertMany(conList, function (err) {
         mongoose.connection.close();
     }
 });
+
+// RSVP
+const rsvpFile = fs.readFileSync(__dirname + "/rsvp.json");
+rsvpJSON = JSON.parse(rsvpFile);
+
+const rsvpSchema = new mongoose.Schema({
+    name: String,
+    avatar: String,
+    email: String,
+    head_count: Number,
+    message: String
+});
+
+const Rsvp = mongoose.model('Rsvp', rsvpSchema);
+
+let rsvpList = []
+
+rsvpJSON.forEach(function (rsvp) {
+    rsvpList.push({
+        "name": rsvp["name"],
+        "avatar": rsvp["avatar"],
+        "email": rsvp["email"],
+        "head_count": rsvp["head_count"],
+        "message": rsvp["message"]
+    });
+});
+
+Rsvp.insertMany(rsvpList, function (err) {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("All RSVP data saved");
+        mongoose.connection.close();
+    }
+});

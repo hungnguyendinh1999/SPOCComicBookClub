@@ -18,7 +18,9 @@
     <!--    Google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=RocknRoll+One&display=swap"
-          rel="stylesheet">
+              rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/rsvp_list.css"/>
 
     <!--    fontawesome-->
     <script src="https://kit.fontawesome.com/e5b5eed843.js" crossorigin="anonymous"></script>
@@ -28,23 +30,13 @@
 
     <script src="js/rsvp_list.js" defer></script>
 </head>
-<body class="container">
+<body id="full_page" class="container">
 
-<!--<section id="header_section">-->
-<!--    <nav class="navbar navbar-expand-lg navbar-light bg-light">-->
-<!--        <div class="container-fluid">-->
-<!--            <div class="navbar-nav navbar-right">-->
-<!--                <a class="nav-link active login" href="/login">Login</a>-->
-<!--                <a class="nav-link active login" href="/register">Register</a>-->
-<!--                <div class="navbar-brand mb-0 logout">Hello, <span id="showname"></span></div>-->
-<!--                <a class="nav-link active logout" href="/logout">Log out</a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </nav>-->
-<!--</section>-->
 <section id="navigation">
     <div id="brand">
-        <a href="/"><img src="https://i2.wp.com/comicbookclublive.com/wp-content/uploads/2019/08/cropped-comic-book-club-logo-horizontal-300x45.png?fit=300%2C45&ssl=1" alt="Home"/></a>
+        <a href="/"><img
+                src="https://i2.wp.com/comicbookclublive.com/wp-content/uploads/2019/08/cropped-comic-book-club-logo-horizontal-300x45.png?fit=300%2C45&ssl=1"
+                alt="Home"/></a>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,9 +55,6 @@
                     <a class="nav-item nav-link" href="/about">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-item nav-link" href="/members">MEMBERS</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-item nav-link" href="/conventions">CONVENTIONS</a>
                 </li>
                 <li class="nav-item">
@@ -75,27 +64,38 @@
                     <a class="nav-item nav-link" href="/contacts">CONTACTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-item nav-link" href="/SPOC">SPOC CALENDAR</a>
+                    <a class="nav-item nav-link" href="/SPOC-calendar">SPOC CALENDAR</a>
                 </li>
             </ul>
         </div>
     </nav>
 </section>
-<section id="controls">
-    <div class="d-flex justify-content-end">
-        <button class="btn btn-lg btn-info" onclick="onCreate()">RSVP Here</button>
-    </div>
+
+<section id="main">
+
+    <section id="info">
+        <h3>Time</h3>
+        <span>Every Friday 8pm</span>
+        <br><br>
+        <h3>Location</h3>
+        <span>JSC lounge 3rd or 4th floor depending on what’s available. Confer with the FB messenger chat to find out which,
+             see Contact page for how to be added to the Facebook Messenger chat.
+    </span>
+    </section>
+    <br>
+    <section id="controls">
+        <div class="d-flex justify-content-left">
+            <button class="btn btn-lg btn-info btn-rsvp" onclick="onCreate()">RSVP Here</button>
+        </div>
+    </section>
+    <br><br>
+    <section id="rsvp_section">
+        <h3>List of RSVP'ed People</h3>
+        <ul id="rsvp_list" class="list-group">
+
+        </ul>
+    </section>
 </section>
 
-<section id="info">
-    <h2>Location: </h2>
-    <h2>Time: </h2>
-</section>
-
-<section id="rsvp_section">
-    <ul id="rsvp_list" class="list-group">
-
-    </ul>
-</section>
 </body>
 </html>

@@ -12,40 +12,89 @@
 
     <!--    jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/e5b5eed843.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/rsvp_edit.css"/>
     <script src="js/rsvp_edit.js" defer></script>
 
     <link rel="icon" href="data:,">
 </head>
-<body class="container">
+<body id="full_page" class="container">
 
+<section id="main">
+    <section id="navigation">
+        <div id="brand">
+            <a href="/"><img
+                    src="https://i2.wp.com/comicbookclublive.com/wp-content/uploads/2019/08/cropped-comic-book-club-logo-horizontal-300x45.png?fit=300%2C45&ssl=1"
+                    alt="Home"/></a>
+        </div>
 
-<section id="edit_rsvp">
-    <form action="/save_rsvp" method="post">
-        <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="John Doe" name="name">
-        </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="text" class="form-control" id="email" placeholder="john@doe.com" name="email">
-        </div>
-        <div class="mb-3">
-            <label for="head_count" class="form-label">Number of people attending</label>
-            <input type="number" step="1" class="form-control" id="head_count" placeholder="0" name="head_count">
-        </div>
-        <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea rows="4" cols="50" class="form-control" name="message" id="message"></textarea>
-        </div>
-        <div class="mb-3">
-            <p id="error_message" style="color: red"></p>
-        </div>
-        <div class="mb-3">
-            <button type="submit" class="btn btn-primary" style="width: 20%">Save</button>&nbsp;
-            <button type="button" class="btn btn-primary" style="width: 20%" onclick="onCancel()">Cancel</button>
-        </div>
-    </form>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-home"></i>
+            </a>
+            <!--        Toggler-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse border border-3" id="navbarNavAltMarkup">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="/about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="/conventions">CONVENTIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="/weekly_meeting">WEEKLY MEETING INFO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="/contacts">CONTACTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="/SPOC-calendar">SPOC CALENDAR</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="edit_rsvp">
+        <h2>RSVP Form</h2>
+        <form action="/save_rsvp" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="John Doe" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="john@doe.com" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="avatar" class="form-label">Avatar url (Optional)</label>
+                <input type='text' class="form-control" id="avatar" placeholder="" name="avatar">
+            </div>
+            <div class="mb-3">
+                <label for="head_count" class="form-label">Number of people attending</label>
+                <input type="number" step="1" class="form-control" id="head_count" placeholder="0" name="head_count">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea rows="4" cols="50" class="form-control" name="message" id="message"></textarea>
+            </div>
+            <div class="mb-3">
+                <p id="error_message" style="color: red"></p>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary btn-edit" style="width: 20%">Save</button>&nbsp;
+                <button type="button" class="btn btn-primary btn-cancel" style="width: 20%" onclick="onCancel()">Cancel</button>
+            </div>
+        </form>
+    </section>
 </section>
+
+
 </body>
 </html>
