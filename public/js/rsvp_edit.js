@@ -1,6 +1,8 @@
+$('select').selectpicker();
 $('form').on('submit', function () {
     let errorMessage = null
     $.each($('input,textarea'), function () {
+        console.log($(this).val());
         let parentLabel = $(this).parent().find('label').text();
         if (!$(this).val()) {
             if (parentLabel !== 'Avatar url (Optional)'){
