@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/rsvp_edit.css"/>
     <script src="js/rsvp_edit.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 
     <link rel="icon" href="data:,">
 </head>
@@ -63,7 +68,7 @@
 
     <section id="edit_rsvp">
         <h2>RSVP Form</h2>
-        <form action="/save_rsvp" method="post">
+        <form action="save_rsvp" method="post">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="John Doe" name="name">
@@ -80,6 +85,17 @@
                 <label for="head_count" class="form-label">Number of people attending</label>
                 <input type="number" step="1" class="form-control" id="head_count" placeholder="0" name="head_count">
             </div>
+<!--            <div class="mb-3">-->
+<!--                <label for="interests" class="form-label">Your interests (Select multiple)</label>-->
+<!--                <select id="interests" name="interests" class="selectpicker" multiple data-live-search="true">-->
+<!--                    <option>Comic</option>-->
+<!--                    <option>Role-playing Game (RPG)</option>-->
+<!--                    <option>Card Game</option>-->
+<!--                    <option>Dice Game</option>-->
+<!--                    <option>Competitive Game</option>-->
+<!--                    <option>Co-op Game</option>-->
+<!--                </select>-->
+<!--            </div>-->
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
                 <textarea rows="4" cols="50" class="form-control" name="message" id="message"></textarea>

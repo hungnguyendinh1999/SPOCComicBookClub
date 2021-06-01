@@ -127,7 +127,8 @@ const rsvpSchema = new mongoose.Schema({
     avatar: String,
     email: String,
     head_count: Number,
-    message: String
+    message: String,
+    interests: [String]
 });
 
 const Rsvp = mongoose.model('Rsvp', rsvpSchema);
@@ -140,7 +141,8 @@ rsvpJSON.forEach(function (rsvp) {
         "avatar": rsvp["avatar"],
         "email": rsvp["email"],
         "head_count": rsvp["head_count"],
-        "message": rsvp["message"]
+        "message": rsvp["message"],
+        "interests": rsvp["interests"]
     });
 });
 

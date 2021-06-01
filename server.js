@@ -48,7 +48,8 @@ const rsvpSchema = new mongoose.Schema({
     avatar: String,
     email: String,
     head_count: Number,
-    message: String
+    message: String,
+    interests: [String]
 });
 
 const SPOCEvent = mongoose.model('SPOCEvent', eventSchema);
@@ -196,7 +197,8 @@ app.post("/save_rsvp", (req, res) => {
         email: req.body.email,
         avatar: avatar,
         head_count: req.body.head_count,
-        message: req.body.message
+        message: req.body.message,
+        interests: req.body.interests
     }
 
     const nr = new Rsvp(rsvp);
@@ -205,7 +207,6 @@ app.post("/save_rsvp", (req, res) => {
             if (err) {
                 console.log(err['message']);
             } else {
-                console.log(new_rsvp._id);
                 res.redirect("/weekly_meeting");
             }
         }

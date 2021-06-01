@@ -42,6 +42,9 @@ function showList(rsvps) {
             return `<p class="head_count">Number of people coming: ${rsvps[idx].head_count}</p>`;
         })
         .append(idx => {
+            return `<p class="interests">Interest: ${rsvps[idx].interests.join(",")}</p>`;
+        })
+        .append(idx => {
             return `<p class="message">Message: ${rsvps[idx].message}</p>`;
         });
 
