@@ -15,7 +15,7 @@ mongoose.connect('mongodb://localhost:27017/comicDB', {useNewUrlParser: true, us
     console.log("MongoDB connection successful");
 });
 
-const eventSchema = {
+const eventSchema = new mongoose.Schema({
     event_name: String,
     date: String,
     time_from: String,
@@ -24,7 +24,7 @@ const eventSchema = {
     description: String,
     img_url: String,
     categories: [String]
-}
+})
 
 const memberSchema = new mongoose.Schema({
     fullname: String,
@@ -111,7 +111,7 @@ app.get('/get_all_SPOC_events', function(req,res) {
 })
 
 app.get('/get_event_by_id', function(req,res) {
-    console.log(req.query.event_id)
+    // console.log(req.query.event_id)
 
     SPOCEvent.find({"_id": req.query.event_id},function(err, data) {
         if (err || data.length === 0) {
@@ -186,7 +186,7 @@ app.get('/get_cons_by_filters',(req, res)=>{
 });
 
 app.post("/save_rsvp", (req, res) => {
-    let avatar = null;
+    let avatar;
     if (!req.body.avatar) {
         avatar = "https://cdn.vox-cdn.com/thumbor/X7fW7KYz0XEz57TAGoUcDU2YpbA=/0x0:696x534/1200x800/filters:focal(293x212:403x322)/cdn.vox-cdn.com/uploads/chorus_image/image/69312307/Untitled.0.jpg";
     } else {

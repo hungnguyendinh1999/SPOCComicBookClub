@@ -1,0 +1,21 @@
+:root {
+    --theme-blue: #34b0fa;
+    --theme-yellow:#f6d73a;
+    --theme-grey: #3e4348;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    padding-top: 2%;
+    text-align: center;
+    background-color: var(--theme-blue);
+    color: var(--theme-grey);
+
+}
+
+/*footer p{*/
+/*    */
+/*    background-color: var(--theme-yellow);*/
+/*    background-clip: padding-box;*/
+/*}*/
